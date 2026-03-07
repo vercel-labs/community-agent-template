@@ -1,4 +1,4 @@
-# Community Agent Template
+# Community Agent Template TEST
 
 Open source AI-powered Slack community management bot with a built-in Next.js admin panel. Uses Chat SDK, AI SDK, and Vercel Workflow.
 
