@@ -17,7 +17,7 @@ import { channels } from "@/lib/channels";
 import { config } from "@/lib/config";
 import { Route } from "next";
 
-export const instant = {
+export const unstable_instant = {
   prefetch: "runtime" as const,
   samples: [
     {

@@ -13,7 +13,7 @@ import { getActionById, getConversationDetail } from "@/data/queries/activity";
 import { cleanSlackText, cn } from "@/lib/utils";
 import { LiveStreamIndicator } from "./_components/live-stream-indicator";
 
-export const instant = {
+export const unstable_instant = {
   prefetch: "runtime" as const,
   samples: [
     {

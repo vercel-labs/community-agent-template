@@ -24,7 +24,7 @@ import { AnalyticsChart } from "./_components/analytics-chart";
 import { DashboardLive } from "./_components/dashboard-live";
 import { Route } from "next";
 
-export const instant = {
+export const unstable_instant = {
   prefetch: "runtime" as const,
   samples: [
     {

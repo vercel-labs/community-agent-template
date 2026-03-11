@@ -28,7 +28,7 @@ import {
 } from "./_components/conversation-preview";
 import { ShowMoreButton } from "./_components/show-more-button";
 
-export const instant = {
+export const unstable_instant = {
   prefetch: "runtime" as const,
   samples: [
     {
