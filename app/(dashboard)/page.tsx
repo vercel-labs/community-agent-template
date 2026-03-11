@@ -25,12 +25,8 @@ import { DashboardLive } from "./_components/dashboard-live";
 import { Route } from "next";
 
 export const unstable_instant = {
-  prefetch: "runtime" as const,
-  samples: [
-    {
-      cookies: [{ name: "better-auth.session_token", value: "sample" }],
-    },
-  ],
+  prefetch: "runtime",
+  samples: [{}],
 };
 
 const PROTOCOL_RE = /^https?:\/\//;

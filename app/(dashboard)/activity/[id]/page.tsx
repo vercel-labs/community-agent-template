@@ -14,13 +14,8 @@ import { cleanSlackText, cn } from "@/lib/utils";
 import { LiveStreamIndicator } from "./_components/live-stream-indicator";
 
 export const unstable_instant = {
-  prefetch: "runtime" as const,
-  samples: [
-    {
-      params: { id: "1" },
-      cookies: [{ name: "better-auth.session_token", value: "sample" }],
-    },
-  ],
+  prefetch: "runtime",
+  samples: [{}],
 };
 
 export default function ConversationPage({
