@@ -49,7 +49,7 @@
     "geist": "^1.7.0",
     "kysely-libsql": "^0.7.1",
     "lucide-react": "^0.577.0",
-    "next": "^16.1.6",
+    "next": "16.2.0-canary.91",
     "next-themes": "^0.4.6",
     "radix-ui": "^1.4.3",
     "react": "^19.2.4",

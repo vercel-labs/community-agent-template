@@ -6,9 +6,7 @@ const nextConfig: NextConfig = {
   reactCompiler: true,
   typedRoutes: true,
   experimental: {
-    staleTimes: {
-      dynamic: 30,
-    },
+    instantNavigationDevToolsToggle: true,
   },
 };
 

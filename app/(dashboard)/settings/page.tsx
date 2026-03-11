@@ -17,6 +17,15 @@ import { channels } from "@/lib/channels";
 import { config } from "@/lib/config";
 import { Route } from "next";
 
+export const instant = {
+  prefetch: "runtime" as const,
+  samples: [
+    {
+      cookies: [{ name: "better-auth.session_token", value: "sample" }],
+    },
+  ],
+};
+
 const PROTOCOL_RE = /^https?:\/\//;
 
 export default function SettingsPage() {

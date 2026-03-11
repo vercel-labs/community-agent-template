@@ -28,6 +28,15 @@ import {
 } from "./_components/conversation-preview";
 import { ShowMoreButton } from "./_components/show-more-button";
 
+export const instant = {
+  prefetch: "runtime" as const,
+  samples: [
+    {
+      cookies: [{ name: "better-auth.session_token", value: "sample" }],
+    },
+  ],
+};
+
 export default function ActivityPage({ searchParams }: PageProps<"/activity">) {
   const countsPromise = getActionCounts();
 
